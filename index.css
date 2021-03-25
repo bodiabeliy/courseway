@@ -8,7 +8,7 @@
 
 .apple {
  width: 100%;
- background-image: url('../src/apple-BG.png?raw=true');
+ background-image: url('src/apple-BG.png'), url('src/apple-BG.png');
  height: 700px;
 }
 .apple_wrapper {
