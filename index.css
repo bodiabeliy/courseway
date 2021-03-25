@@ -62,17 +62,6 @@ li.nav-item {
  width: 155px;
 }
 
-
-.con {
- font-size: 60px;
- font-family: "OpenSans", sans-serif;
- font-weight: bold;
- line-height: 1.761;
- text-align: center;
- display: flex;
- justify-content: center;
-}
-
 .centering_adv, .centering_course {
  justify-content: center;
  text-align: center;
@@ -93,6 +82,12 @@ li.nav-item {
 .grey {
  background-color: rgb(240, 240, 240);
 }
+.cardsCurse {
+ padding-bottom: 45px;
+}
+.image {
+ padding: 30px;
+}
 .c {
  margin: 0 auto;
  display: flex;
@@ -105,5 +100,22 @@ li.nav-item {
  flex-direction: row-reverse;
 }
 .card-title {
+ padding-top: 15px;
+ padding-left: 15px;
  text-align: center;
+}
+.btnCourse {
+ display: flex;
+ justify-content: flex-end;
+}
+.regester {
+ align-items: center;
+ font-size: 10px;
+ font-family: "OpenSans", sans-serif;
+ color: rgb(255, 255, 255);
+ width: 162px;
+ height: 32px;
+ border: 1px solid rgb(255, 255, 255);
+ background-color: rgb(186, 39, 31);
+ margin-top: 5px;
 }
