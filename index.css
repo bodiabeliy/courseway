@@ -125,7 +125,9 @@ li.nav-item {
 .slider {
  margin-bottom: 0px;
 }
-
+.university_name {
+ margin-top: 25px;
+}
 .sliderPosition {
  width: 73.125%;
  margin: 0 auto;
@@ -135,5 +137,19 @@ li.nav-item {
 }
 .img-flex {
  flex-direction: column;
- margin-left: 53px;
+ margin-left: 26px;
 }
+.arrovback, .arrownext {
+ position: absolute;
+ width: 48px;
+ height: 48px;
+}
+.arrovback {
+ left: 9.5%;
+ top: 35%;
+}
+.arrownext {
+ left:85%;
+ top: 35%;
+}
+
