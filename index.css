@@ -8,7 +8,7 @@
 
 .apple {
  width: 100%;
- background-image: url('src/apple-BG.png'), url('src/apple-BG.png');
+ background: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607');
  height: 700px;
 }
 .apple_wrapper {
