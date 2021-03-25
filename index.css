@@ -5,11 +5,10 @@
 * {
  margin: 0;
 }
-body {
- width: 1600px;
-}
+
 .apple {
- background-image: url('../src/apple-BG.png');
+ width: 100%;
+ background-image: url('../src/apple-BG.png?raw=true');
  height: 700px;
 }
 .apple_wrapper {
