@@ -23,15 +23,3 @@ body {
  z-index: 5;
 }
 
-.COURSEWAY {
- font-size: 52px;
- font-family: "Lato";
- color: rgb(255, 255, 255);
- line-height: 0.147;
- text-align: left;
- position: absolute;
- left: 215.892px;
- top: 76.178px;
- z-index: 7;
-}
-
