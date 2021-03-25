@@ -21,7 +21,7 @@
 .course_center {
  position: relative;
  display: flex;
- justify-content: center;
+ justify-content: flex-end;
  width: 1170px;
 }
 .navbar-toggler {
@@ -46,15 +46,38 @@
 .list {
  width: 760px;
 }
-menu > li {
- color: rgb(19, 11, 11);
+
+li.nav-item {
  margin-left: 26px;
  margin-right: 26px;
-}
-li.nav-item {
  width: 140px;
 }
 .project {
- margin-right: 53px;
  width: 155px;
+}
+
+
+.con {
+ font-size: 60px;
+ font-family: "OpenSans", sans-serif;
+ font-weight: bold;
+ line-height: 1.761;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+}
+
+.centering {
+ justify-content: center;
+ text-align: center;
+}
+.one, .two .three {
+ width: 350px;
+}
+.card {
+ border: none;
+ height: 250px;
+}
+.lyre {
+ margin-top: 60px;
 }
