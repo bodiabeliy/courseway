@@ -14,14 +14,14 @@
   display: none;
  }
  .header_form {
-  margin-top: 22%;
+  margin-top: 20%;
   margin-right: 70%
  }
 }
 
 @media (min-width: 1007px) {
  .education_info {
-  margin-left: 110px;
+  margin-left: 65px;
  }
  
  .header_form {
@@ -60,6 +60,12 @@ h5 {
  font-size: 33px;
  font-family: "OpenSans", sans-serif;
 }
+.header_text {
+ width: 66.25%;
+ display: flex;
+ justify-content: flex-end;
+}
+
 .apple {
  width: 100%;
  background: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607');
@@ -175,8 +181,9 @@ h2 {
  margin-top: 140px;
 }
 .container_adv, .container_course {
- margin-bottom: 30px;
+ margin-bottom: 23px;
 }
+
 .grey {
  background-color: rgb(240, 240, 240);
 }
@@ -226,6 +233,7 @@ h2 {
  padding-right: 60px;
  padding-top: 13px;
 }
+
 .card-title {
  font-size: 25px;
  font-family: "OpenSans", sans-serif;
@@ -247,6 +255,10 @@ h2 {
  font-family: "Lato";
  color: rgb(62, 62, 62);
  line-height: 1.716;
+ margin-left: 25px;
+}
+.card-text > a {
+ margin-left: 25px;
 }
 
 .btnCourse {
@@ -290,8 +302,9 @@ h2 {
  margin-right: 25px;
 }
 .slider {
- padding-bottom: 45px;
+ padding-bottom: 30px;
 }
+
 .university_name {
  margin-top: 25px;
 }
@@ -312,12 +325,18 @@ h2 {
  height: 48px;
 }
 .arrovback {
- left: 9.5%;
- top: 35%;
+ left: 9.85%;
+ top: 34.7%;
 }
 .arrownext {
- left:85%;
- top: 35%;
+ left: 87.3%;
+ top: 32%;
+}
+.university_name {
+ font-size: 25px;
+}
+.university_name:hover {
+ color: rgb(186, 39, 31);
 }
 .education {
  width: 100%;
@@ -325,14 +344,10 @@ h2 {
  background-image: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Feducation.png?alt=media&token=6bb34648-b757-467b-8108-8a3c8cc169ca');
  background-position: center;
  background-size: cover;
- margin-bottom: 45px;
 }
 .education_content {
  position: relative;
  display: flex;
-}
-.education_fon {
-width: 800px;
 }
 .image_fon {
  width: 800px;
@@ -345,14 +360,22 @@ width: 800px;
 .education_info {
  width: 490px;
  height: 284px;
- margin-top: 45px;
- margin-bottom: 90px;
+ margin-top: 30px;
+}
+.card-header {
+ font-size: 30px;
+ font-family: "OpenSans", sans-serif;
+ color: rgb(245, 245, 245);
+ line-height: 0.858;
+ text-align: center;
+ padding-top: 30px;
 }
 .card-text {
  font-size: 15px;
  font-family: "Lato";
  line-height: 1.835;
 }
+
 .educ {
  color: rgb(241, 241, 242);
 
@@ -361,9 +384,11 @@ width: 800px;
  color: white;
  width: 265px;
  height: 64px;
+ margin-top: 30px;
  border-style: 1px solid rgb(255, 255, 255);
  background-color: rgb(186, 39, 31);
 }
+
 
 .workers_team {
  margin-bottom: 54px;
@@ -377,7 +402,17 @@ width: 800px;
  margin-bottom: 53px;
 }
 .name {
+ text-align: center;
+ font-size: 21px;
+ font-weight: bold;
+ font-family: "Lato";
+ color: rgb(62, 62, 62);
+ line-height: 0.638;
  padding-top: 40px;
+ padding-bottom: 33px;
+}
+.worker {
+ width: 100%;
 }
 .footer_form {
  width: 100%;
@@ -390,19 +425,22 @@ width: 800px;
  margin: 0 auto;
 }
 .form-control {
- margin-top: 21;
- margin-bottom: 21px;
+ margin-bottom: 16px;
+ width: 98%;
 }
 .submit {
  display: flex;
  justify-content: center;
- color: white;
  width:159px;
  height: 65px;
  border-style: 1px solid rgb(255, 255, 255);
  background-color: rgb(186, 39, 31);
  margin: 0 auto;
  align-items: center;
+ font-size: 25px;
+ font-family: "Lato";
+ color: rgb(255, 255, 255);
+ line-height: 1.701;
 }
 .social {
  width: 100%;
@@ -428,8 +466,3 @@ width: 800px;
  margin-bottom: 12px;
 }
 
-.header_text {
- width: 1015px;
- display: flex;
- justify-content: flex-end;
-}
