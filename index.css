@@ -183,8 +183,21 @@ h2 {
 .cardsCurse {
  padding-bottom: 45px;
 }
-.image {
- padding: 30px;
+.image_1 {
+ padding-top: 20px;
+ padding-right: 36px;
+}
+.image_2 {
+ padding-top: 17px;
+ padding-right: 20px;
+}
+.image_3 {
+ padding-top: 32px;
+ padding-right: 33px;
+}
+.image_4 {
+ padding-top: 34px;
+ padding-right: 20px;
 }
 .c {
  margin: 0 auto;
@@ -197,6 +210,8 @@ h2 {
  display: flex;
  flex-direction: row;
  flex-direction: row-reverse;
+ background-color: rgb(232, 232, 232);
+ margin-bottom: 32px;
 }
 
 .card-title_left {
@@ -211,6 +226,29 @@ h2 {
  padding-right: 60px;
  padding-top: 13px;
 }
+.card-title {
+ font-size: 25px;
+ font-family: "OpenSans", sans-serif;
+ color: rgb(62, 62, 62);
+ line-height: 1.365;
+ text-align: center;
+}
+.card-title_ {
+ padding-top: 43px;
+ font-size: 25px;
+ font-family: "OpenSans", sans-serif;
+ color: rgb(62, 62, 62);
+ line-height: 1.365;
+ text-align: center;
+}
+
+.card-text {
+ font-size: 17.5px;
+ font-family: "Lato";
+ color: rgb(62, 62, 62);
+ line-height: 1.716;
+}
+
 .btnCourse {
  display: flex;
  justify-content: flex-end;
@@ -225,6 +263,31 @@ h2 {
  border: 1px solid rgb(255, 255, 255);
  background-color: rgb(186, 39, 31);
  margin-top: 5px;
+ margin-right: 20px;
+}
+.regester_ {
+ align-items: center;
+ font-size: 10px;
+ font-family: "OpenSans", sans-serif;
+ color: rgb(255, 255, 255);
+ width: 162px;
+ height: 32px;
+ border: 1px solid rgb(255, 255, 255);
+ background-color: rgb(186, 39, 31);
+ margin-top: 26px;
+ margin-right: 25px;
+}
+.regester__ {
+ align-items: center;
+ font-size: 10px;
+ font-family: "OpenSans", sans-serif;
+ color: rgb(255, 255, 255);
+ width: 162px;
+ height: 32px;
+ border: 1px solid rgb(255, 255, 255);
+ background-color: rgb(186, 39, 31);
+ margin-top: 26px;
+ margin-right: 25px;
 }
 .slider {
  padding-bottom: 45px;
