@@ -286,6 +286,15 @@ width: 800px;
  width: 68.125%;
  margin: 0 auto;
 }
+.des {
+ text-align: center;
+}
+.item {
+ margin-bottom: 53px;
+}
+.name {
+ padding-top: 40px;
+}
 .footer_form {
  width: 100%;
  height: 483px;
