@@ -8,11 +8,23 @@
  .lyre {
   display: none;
  }
+ .desc h5 {
+  display: none;
+ }
+ .header_form {
+  margin-top: 22%;
+  margin-right: 70%
+ }
 }
 
 @media (min-width: 1007px) {
  .education_info {
   margin-left: 110px;
+ }
+ 
+ .header_form {
+  margin-top: 202px;
+  width: 100%;
  }
 }
 
@@ -108,15 +120,10 @@ h2 {
  position: relative;
  color: white;
 }
-.header_start {
 
-}
-.header_form {
- width: 100%;
-}
 .header_form_header {
  width: 0%;
- height: 200px;
+ height: 100px;
  margin: 0 auto;
 }
 .form-control_header {
