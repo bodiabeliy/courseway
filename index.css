@@ -17,7 +17,16 @@
 * {
  margin: 0;
 }
-
+input {
+ height: 70px;
+}
+h1 {
+ font-family: "OpenSans", sans-serif;
+}
+h3 {
+ font-size: 25px;
+ font-family: "OpenSans", sans-serif;
+}
 .apple {
  width: 100%;
  background: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607');
@@ -160,6 +169,7 @@ li.nav-item {
  background-image: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Feducation.png?alt=media&token=6bb34648-b757-467b-8108-8a3c8cc169ca');
  background-position: center;
  background-size: cover;
+ margin-bottom: 45px;
 }
 .education_content {
  position: relative;
@@ -195,3 +205,35 @@ width: 800px;
  border-style: 1px solid rgb(255, 255, 255);
  background-color: rgb(186, 39, 31);
 }
+
+.workers_team {
+ margin-bottom: 54px;
+ width: 68.125%;
+ margin: 0 auto;
+}
+.footer_form {
+ width: 100%;
+ height: 483px;
+ background-color: rgb(169, 148, 115);
+}
+.form_section {
+ width: 34.6875%;
+ height: 200px;
+ margin: 0 auto;
+}
+.form-control {
+ margin-top: 21;
+ margin-bottom: 21px;
+}
+.submit {
+ display: flex;
+ justify-content: center;
+ color: white;
+ width:159px;
+ height: 65px;
+ border-style: 1px solid rgb(255, 255, 255);
+ background-color: rgb(186, 39, 31);
+ margin: 0 auto;
+ align-items: center;
+}
+
