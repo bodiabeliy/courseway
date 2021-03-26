@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
 @media (max-width: 767px) {
+ .header_text h2{
+  display: none;
+ }
  .lyre {
   display: none;
  }
@@ -10,6 +13,17 @@
 @media (min-width: 1007px) {
  .education_info {
   margin-left: 110px;
+ }
+}
+
+@media (min-width: 884px) {
+ .header_text {
+  left: 19%;
+ }
+ .desc {
+  font-size: 30px;
+  left: 27%;
+  top: 26%;
  }
 }
 
@@ -25,6 +39,10 @@ h1 {
 }
 h3 {
  font-size: 25px;
+ font-family: "OpenSans", sans-serif;
+}
+h5 {
+ font-size: 30px;
  font-family: "OpenSans", sans-serif;
 }
 .apple {
@@ -73,6 +91,50 @@ li.nav-item {
 .project {
  width: 155px;
 }
+.header_text {
+ top: 22%;
+ position: relative;
+}
+h2 {
+ font-size: 80px;
+ font-family: "OpenSans", sans-serif;
+ color: white;
+ font-weight: bold;
+ line-height: 1.761;
+ text-align: center;
+}
+
+.desc {
+ position: relative;
+ color: white;
+}
+.header_start {
+
+}
+.header_form {
+ width: 100%;
+}
+.header_form_header {
+ width: 0%;
+ height: 200px;
+ margin: 0 auto;
+}
+.form-control_header {
+ width: 350px;
+ margin-top: 21px;
+ margin-bottom: 21px;
+}
+.start {
+ width: 350px;
+ margin-top: 21px;
+ margin-bottom: 21px;
+ height: 70px;
+ border-style: 1px solid rgb(255, 255, 255);
+ background-color: rgb(186, 39, 31);
+ margin: 0 auto;
+ align-items: center;
+ color: blanchedalmond;
+}
 
 .centering_adv, .centering_course, .slider {
  justify-content: center;
@@ -117,6 +179,9 @@ li.nav-item {
  padding-top: 15px;
  padding-left: 15px;
  text-align: center;
+}
+.card-text {
+ color: black;
 }
 .btnCourse {
  display: flex;
@@ -195,8 +260,11 @@ width: 800px;
 .card-text {
  font-size: 15px;
  font-family: "Lato";
- color: rgb(241, 241, 242);
  line-height: 1.835;
+}
+.educ {
+ color: rgb(241, 241, 242);
+
 }
 .Getbutton {
  color: white;
@@ -236,4 +304,32 @@ width: 800px;
  margin: 0 auto;
  align-items: center;
 }
+.social {
+ width: 100%;
+ height: 291px;
+ background-color: rgb(169, 148, 115);
+ display: flex;
+ justify-content: center;
+}
 
+.social_text {
+ margin-top: 53px;
+ color: white;
+ text-align: center;
+}
+.icons {
+ margin-top: 44px;
+ width: 240px;
+ display: flex;
+ flex-wrap: wrap;
+}
+.icons > img {
+ margin-right: 30px;
+ margin-bottom: 12px;
+}
+
+.header_text {
+ width: 1015px;
+ display: flex;
+ justify-content: flex-end;
+}
