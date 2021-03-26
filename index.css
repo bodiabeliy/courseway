@@ -7,6 +7,11 @@
  }
 }
 
+@media (min-width: 1007px) {
+ .education_info {
+  margin-left: 110px;
+ }
+}
 
 
 * {
@@ -40,9 +45,10 @@
  color: rgb(255, 255, 255);
  display: flex;
  justify-content: center;
- width: 720px;
+ width: 560px;
 }
 .menu {
+ width: 900px;
  position: relative;
  font-size: 25px;
  font-family: "OpenSans", sans-serif;
@@ -50,14 +56,10 @@
 .fixed-top {
  margin-top: 20px;
 }
-.list {
- width: 760px;
-}
 
 li.nav-item {
- margin-left: 26px;
- margin-right: 26px;
- width: 140px;
+ margin-right: 53px;
+ width: 100px;
 }
 .project {
  width: 155px;
@@ -152,4 +154,44 @@ li.nav-item {
  left:85%;
  top: 35%;
 }
-
+.education {
+ width: 100%;
+ height: 402px;
+ background-image: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Feducation.png?alt=media&token=6bb34648-b757-467b-8108-8a3c8cc169ca');
+ background-position: center;
+ background-size: cover;
+}
+.education_content {
+ position: relative;
+ display: flex;
+}
+.education_fon {
+width: 800px;
+}
+.image_fon {
+ width: 800px;
+}
+.education_body {
+ width: 800px;
+ display: flex;
+ justify-content: flex-start;
+}
+.education_info {
+ width: 490px;
+ height: 284px;
+ margin-top: 45px;
+ margin-bottom: 90px;
+}
+.card-text {
+ font-size: 15px;
+ font-family: "Lato";
+ color: rgb(241, 241, 242);
+ line-height: 1.835;
+}
+.Getbutton {
+ color: white;
+ width: 265px;
+ height: 64px;
+ border-style: 1px solid rgb(255, 255, 255);
+ background-color: rgb(186, 39, 31);
+}
