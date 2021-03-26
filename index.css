@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
+
+
 @media (max-width: 767px) {
  .header_text h2{
   display: none;
@@ -23,8 +25,9 @@
  }
  
  .header_form {
-  margin-top: 202px;
+  margin-top: 197px;
   width: 100%;
+  margin-left: 103px
  }
 }
 
@@ -44,7 +47,7 @@
  margin: 0;
 }
 input {
- height: 70px;
+ height: 63px;
 }
 h1 {
  font-family: "OpenSans", sans-serif;
@@ -54,7 +57,7 @@ h3 {
  font-family: "OpenSans", sans-serif;
 }
 h5 {
- font-size: 30px;
+ font-size: 33px;
  font-family: "OpenSans", sans-serif;
 }
 .apple {
@@ -73,7 +76,7 @@ h5 {
  position: relative;
  display: flex;
  justify-content: flex-end;
- width: 1170px;
+ width: 68.125%;
 }
 .navbar-toggler {
  z-index: 5;
@@ -86,6 +89,7 @@ h5 {
  justify-content: center;
  width: 560px;
 }
+
 .menu {
  width: 900px;
  position: relative;
@@ -108,7 +112,7 @@ li.nav-item {
  position: relative;
 }
 h2 {
- font-size: 80px;
+ font-size: 60px;
  font-family: "OpenSans", sans-serif;
  color: white;
  font-weight: bold;
@@ -128,19 +132,22 @@ h2 {
 }
 .form-control_header {
  width: 350px;
- margin-top: 21px;
- margin-bottom: 21px;
+ margin-top: 18px;
+ margin-bottom: 27px;
 }
 .start {
  width: 350px;
  margin-top: 21px;
  margin-bottom: 21px;
- height: 70px;
+ height: 63px;
  border-style: 1px solid rgb(255, 255, 255);
  background-color: rgb(186, 39, 31);
  margin: 0 auto;
  align-items: center;
- color: blanchedalmond;
+ color: rgb(252, 250, 248);
+ font-size: 22px;
+ font-family: "OpenSans", sans-serif;
+ padding-top: 16px
 }
 
 .centering_adv, .centering_course, .slider {
