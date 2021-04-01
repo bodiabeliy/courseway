@@ -3,494 +3,218 @@
 
 
 
-@media (max-width: 767px) {
- .header_text h2{
-  display: none;
- }
- .lyre {
-  display: none;
- }
- .desc h5 {
-  display: none;
- }
- .header_form {
-  margin-top: 20%;
-  margin-right: 70%
- }
- .phone {
-  padding-right: 0px;
-  padding-left: 100px;
- }
- .human {
- padding-left: 100px;
- }
- .bh {
-  text-align: center;
-    padding-left: 44px;
- }
- .form_section {
-  width: 100%;
-  padding-left: 3%;
-  padding-right: 3%;
- }
-}
-
-@media (min-width: 1007px) {
- .education_info {
-  margin-left: 65px;
- }
- 
- .header_form {
-  margin-top: 197px;
-  width: 100%;
-  margin-left: 103px
- }
-}
-
-@media (min-width: 884px) {
- .header_text {
-  left: 19%;
- }
- .desc {
-  font-size: 30px;
-  left: 27%;
-  top: 26%;
- }
-}
+/*
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2F1bg.png?alt=media&token=f8f33f64-83ef-4c8d-b686-651fcc38f44e
+яблуко
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Feducation.png?alt=media&token=6bb34648-b757-467b-8108-8a3c8cc169ca
+студенты
 
 
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FClock.svg?alt=media&token=25c08f28-1a12-4f13-a306-3e54334bab73
+часы
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FGlobe.svg?alt=media&token=92b6b0ae-2b6d-4d0f-9f81-7b16c436ee8c
+глобус
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FLyre.png?alt=media&token=9bb62fc0-e18b-4314-be20-91dbb01f9e88
+лира
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FiPhone.svg?alt=media&token=4cc0a80a-7652-40c3-acd5-9f1505f3bb2f
+телефон
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FMan.svg?alt=media&token=8083f62f-d004-47ab-b360-8253e536be5f
+человек
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2F1.png?alt=media&token=e263bca1-bc2f-478a-8f3a-ba452146eef4
+1 программа
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2F2.png?alt=media&token=a71730e2-3430-4398-baa0-08e43b2f8128
+2 алгоритмы
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2F3.png?alt=media&token=fe3a736a-393f-4912-b8a3-a972446e1300
+3 економика
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2F4.png?alt=media&token=47677768-40bf-478b-ab33-b9eb667430b5
+4 история
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fcambridge.png?alt=media&token=749dfa2e-e9ca-4e65-a9b5-49fcd983d4bd
+кембридж
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fharvard.png?alt=media&token=480c6811-2781-47f8-bca2-3dfb3a095207
+хавард
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fmit_crest_logo.png?alt=media&token=2711a207-e2ee-4ce8-a394-871dfda5c1a5
+мит
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fucla.png?alt=media&token=92f9d7ec-5273-45ae-826a-dc05e0ccd918
+укла
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAback.png?alt=media&token=787dcad9-4c5f-457a-8a4d-62fa9837daa7
+стрелка назад
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAnext.png?alt=media&token=fc06fe68-fd18-4d52-a4d9-b7d7fc4a28b1
+стрелка вперед
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fworker1.png?alt=media&token=13cfe3ec-7d94-46d5-ac85-cc0490c2d4ef
+первый работник
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fworker2.png?alt=media&token=9e7e3674-17c8-46b1-8e22-f3d01adc4f88
+второй
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fwork3.png?alt=media&token=8f2cb2da-2db0-4e4f-862b-db27748fc38c
+третий
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fworker4.png?alt=media&token=16a5194b-a28e-44aa-91c0-585d1c2a6267
+четвертая
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Ftwitter.png?alt=media&token=481d5904-55c4-4d9b-807a-84549fa6873e
+твитер син
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Ffacebook.png?alt=media&token=d7d06cbc-69ab-49cd-9485-567a773c9680
+фейс син
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fgoogle-plus.png?alt=media&token=29399a64-41a5-43de-b230-c08545c7e564
+гугл
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Ftwitter%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png?alt=media&token=20eafb7a-e1a9-4b06-98ef-c83b0d42c904
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Ffacebook%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png?alt=media&token=81a1fdb0-7f95-4fad-97c1-085a1e7e7ec7
+https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fgoogle-plus%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png?alt=media&token=5ed3ed08-8a57-4b81-a29e-c1d44e50a5d7
+
+
+*/
 * {
- margin: 0;
-}
-input {
- height: 63px;
- padding: 0.375rem 1.75rem
-}
-h1 {
- font-family: "OpenSans", sans-serif;
-}
-h3 {
- font-size: 25px;
- font-family: "OpenSans", sans-serif;
-}
-h5 {
- font-size: 33px;
- font-family: "OpenSans", sans-serif;
-}
-.header_text {
- width: 66.25%;
- display: flex;
- justify-content: flex-end;
+  margin: 0;
 }
 
-.apple {
- width: 100%;
- background: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fapple-BG.png?alt=media&token=4551e53c-bbce-4e5a-941a-2f83dbc86607');
- height: 700px;
-}
-.apple_wrapper {
- position: relative;
- background-color: rgb(189, 149, 105);
- opacity: 0.251;
- width: 100%;
- height: 100%;
-}
-.course_center {
- position: relative;
- display: flex;
- justify-content: flex-end;
- width: 68.125%;
-}
-.navbar-toggler {
- z-index: 5;
-}
-.COURSEWAY {
- font-size: 52px;
- font-family: "Lato";
- color: rgb(255, 255, 255);
- display: flex;
- justify-content: center;
- width: 560px;
+/* min-width: 1000px */
+@media (min-width: 1000px) {
+  .main__header {
+    font-size: 60px;
+  }
+  .form__container {
+    justify-content: flex-end;
+  }
+  .header_form_elements {
+    width: 350px;
+  }
+  .pre__header {
+    letter-spacing: 1px;
+  }
 }
 
-.menu {
- width: 900px;
- position: relative;
- font-size: 25px;
- font-family: "OpenSans", sans-serif;
+/* max-width: 992px */
+@media (max-width: 992px) {
+nav {
+  height: 100px;
 }
-.fixed-top {
- margin-top: 20px;
+.main__header {
+  font-size: 50px;
 }
- a:hover {
- padding-bottom: 12px;
- border-bottom: 1px solid white
+.navbar-dark .navbar-toggler {
+    padding-left: 40%;
+    border-color: transparent;
+  }
+  .form__container {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .header_form_elements {
+    width: 350px
+  }
 }
-li.nav-item {
- margin-right: 53px;
- width: 100px;
+/* max-width: 870px */
+@media (max-width: 870px) {
+  .navbar-dark .navbar-toggler {
+    padding-left: 23%;
+    border-color: transparent;
+  }
+  .pre__header {
+    display: none;
+  }
+  .main__header {
+    font-size: 41px;
+  }
+  .form__container {
+    justify-content: center;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header__form, .header_form_elements {
+    width: 100%;
+  }
 }
-.project {
- width: 155px;
-}
-.header_text {
- top: 22%;
- position: relative;
-}
-h2 {
- font-size: 60px;
- font-family: "OpenSans", sans-serif;
- color: white;
- font-weight: bold;
- line-height: 1.761;
- text-align: center;
-}
-
-.desc {
- position: relative;
- color: white;
-}
-
-.header_form_header {
- width: 0%;
- height: 100px;
- margin: 0 auto;
-}
-.form-control_header {
- width: 350px;
- margin-top: 18px;
- margin-bottom: 27px;
-}
-.start {
- width: 350px;
- margin-top: 21px;
- margin-bottom: 21px;
- height: 63px;
- border-style: 1px solid rgb(255, 255, 255);
- background-color: rgb(186, 39, 31);
- margin: 0 auto;
- align-items: center;
- color: rgb(252, 250, 248);
- font-size: 22px;
- font-family: "OpenSans", sans-serif;
- padding-top: 16px
+/* main content */
+.background__apple {
+  width: 100%;
+  height: 700px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2F1bg.png?alt=media&token=f8f33f64-83ef-4c8d-b686-651fcc38f44e');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 
-.centering_adv, .centering_course, .slider {
- justify-content: center;
- text-align: center;
+.container {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
 }
-.one, .two .three {
- width: 350px;
+nav>ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  
 }
-.card {
- border: none;
- height: 250px;
+nav>ul>li>a {
+  text-decoration: none;
 }
-.glob, .clocking {
- padding-left: 46px;
+.link {
+  padding-top: 76px;
 }
-.phone {
- padding-right: 53px;
-}
-.man {
- padding-right: 63px;
-}
-.lyre {
- margin-top: 140px;
-}
-.container_adv, .container_course {
- margin-bottom: 23px;
-}
-
-.grey {
- background-color: rgb(240, 240, 240);
-}
-.cardsCurse {
- padding-bottom: 45px;
-}
-.image_1 {
- padding-top: 20px;
- padding-right: 36px;
-}
-.image_2 {
- padding-top: 17px;
- padding-right: 20px;
-}
-.image_3 {
- padding-top: 32px;
- padding-right: 33px;
-}
-.image_4 {
- padding-top: 34px;
- padding-right: 20px;
-}
-.c {
- margin: 0 auto;
- display: flex;
- justify-content: center;
- width: 68.125%;
+.logo {
+  font-size: 52px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 0.147;
+} 
+.text {
+  font-size: 25px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.306;
+  font-weight: 300;
 }
 
-.card_course {
- display: flex;
- flex-direction: row;
- flex-direction: row-reverse;
- background-color: rgb(232, 232, 232);
- margin-bottom: 32px;
+.main__header {
+  font-family: "OpenSans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.761;
+  text-align: right;
+  padding-right: 40px;
 }
-
-.card-title_left {
- padding-top: 10px;
- padding-left: 47px;
- text-align: center;
+.pre__header {
+  font-size: 32px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.761;
+  text-align: right;
+  padding-right: 75px;
+  padding-bottom: 22px
 }
-.card-text_left {
- padding-left: 36px;
+.form__container {
+  position: relative;
+  max-width: 920px;
+  margin: 0 auto;
+  height: 284px;
+  display: flex;
 }
-.card-title_right {
- padding-right: 60px;
- padding-top: 13px;
+.header__form {
+  display: flex;
+  flex-direction: column;
 }
-
-.card-title {
- font-size: 25px;
- font-family: "OpenSans", sans-serif;
- color: rgb(62, 62, 62);
- line-height: 1.365;
- text-align: center;
+.header_form_elements {
+  position: relative;
+  height: 65px;
+  margin-bottom: 30px;
 }
-.card-title_ {
- padding-top: 43px;
- font-size: 25px;
- font-family: "OpenSans", sans-serif;
- color: rgb(62, 62, 62);
- line-height: 1.365;
- text-align: center;
+.input__header {
+  padding-left: 20px;
+  
 }
-
-.card-text {
- font-size: 17.5px;
- font-family: "Lato";
- color: rgb(62, 62, 62);
- line-height: 1.716;
- margin-left: 25px;
-}
-.card-text > a {
- margin-left: 25px;
-}
-
-.btnCourse {
- display: flex;
- justify-content: flex-end;
-}
-.regester {
- align-items: center;
- font-size: 10px;
- font-family: "OpenSans", sans-serif;
- color: rgb(255, 255, 255);
- width: 162px;
- height: 32px;
- border: 1px solid rgb(255, 255, 255);
- background-color: rgb(186, 39, 31);
- margin-top: 5px;
- margin-right: 20px;
-}
-.regester_ {
- align-items: center;
- font-size: 10px;
- font-family: "OpenSans", sans-serif;
- color: rgb(255, 255, 255);
- width: 162px;
- height: 32px;
- border: 1px solid rgb(255, 255, 255);
- background-color: rgb(186, 39, 31);
- margin-top: 26px;
- margin-right: 25px;
-}
-.regester__ {
- align-items: center;
- font-size: 10px;
- font-family: "OpenSans", sans-serif;
- color: rgb(255, 255, 255);
- width: 162px;
- height: 32px;
- border: 1px solid rgb(255, 255, 255);
- background-color: rgb(186, 39, 31);
- margin-top: 26px;
- margin-right: 25px;
-}
-.slider {
- padding-bottom: 30px;
-}
-
-.university_name {
- margin-top: 25px;
-}
-.sliderPosition {
- width: 73.125%;
- margin: 0 auto;
-}
-.flag {
- display: flex;
-}
-.img-flex {
- flex-direction: column;
- margin-left: 26px;
-}
-.arrovback, .arrownext {
- position: absolute;
- width: 48px;
- height: 48px;
-}
-.arrovback {
- left: 9.85%;
- top: 34.7%;
-}
-.arrownext {
- left: 87.3%;
- top: 32%;
-}
-.university_name {
- font-size: 25px;
-}
-.university_name:hover {
- color: rgb(186, 39, 31);
-}
-.education {
- width: 100%;
- height: 402px;
- background-image: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Feducation.png?alt=media&token=6bb34648-b757-467b-8108-8a3c8cc169ca');
- background-position: center;
- background-size: cover;
-}
-.education_content {
- position: relative;
- display: flex;
-}
-.image_fon {
- width: 800px;
-}
-.education_body {
- width: 800px;
- display: flex;
- justify-content: flex-start;
-}
-.education_info {
- width: 490px;
- height: 284px;
- margin-top: 30px;
-}
-.card-header {
- font-size: 30px;
- font-family: "OpenSans", sans-serif;
- color: rgb(245, 245, 245);
- line-height: 0.858;
- text-align: center;
- padding-top: 30px;
-}
-.card-text {
- font-size: 15px;
- font-family: "Lato";
- line-height: 1.835;
-}
-
-.educ {
- color: rgb(241, 241, 242);
-
-}
-.Getbutton {
- color: white;
- width: 265px;
- height: 64px;
- margin-top: 30px;
- border-style: 1px solid rgb(255, 255, 255);
- background-color: rgb(186, 39, 31);
+.btn__submit {
+  width: 100%;
+  height: 67px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(186, 39, 31);
+  font-size: 21px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.255;
+  padding: 30px 0px 30px 0px;
 }
 
 
-.workers_team {
- margin-bottom: 54px;
- width: 68.125%;
- margin: 0 auto;
-}
-.des {
- text-align: center;
-}
-.item {
- margin-bottom: 53px;
-}
-.name {
- text-align: center;
- font-size: 21px;
- font-weight: bold;
- font-family: "Lato";
- color: rgb(62, 62, 62);
- line-height: 0.638;
- padding-top: 40px;
- padding-bottom: 33px;
-}
-.worker {
- width: 100%;
-}
-.footer_form {
- width: 100%;
- height: 483px;
- background-color: rgb(169, 148, 115);
-}
-.form_section {
- width: 34.6875%;
- height: 200px;
- margin: 0 auto;
-}
-.form-control {
- margin-bottom: 16px;
- width: 98%;
-}
-.submit {
- display: flex;
- justify-content: center;
- width:159px;
- height: 65px;
- border-style: 1px solid rgb(255, 255, 255);
- background-color: rgb(186, 39, 31);
- margin: 0 auto;
- align-items: center;
- font-size: 25px;
- font-family: "Lato";
- color: rgb(255, 255, 255);
- line-height: 1.701;
- margin-top: 41px;
-}
-.social {
- width: 100%;
- height: 291px;
- background-color: rgb(169, 148, 115);
- display: flex;
- justify-content: center;
-}
-
-.social_text {
- margin-top: 53px;
- color: white;
- text-align: center;
-}
-.social_text p {
- font-size: 27px;
- margin-top: 0;
- margin-bottom: 1rem;
- padding-top: 19px;
-}
-.icons {
- margin-top: 31px;
- margin-left: 107px;
- width: 240px;
- display: flex;
- flex-wrap: wrap;
-}
-.icons > img {
- margin-right: 30px;
- margin-bottom: 12px;
-}
 
