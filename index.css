@@ -89,7 +89,7 @@ nav {
   font-size: 50px;
 }
 .navbar-dark .navbar-toggler {
-    padding-left: 40%;
+    padding-left: 42%;
     border-color: transparent;
   }
   .form__container {
@@ -103,7 +103,7 @@ nav {
 /* max-width: 870px */
 @media (max-width: 870px) {
   .navbar-dark .navbar-toggler {
-    padding-left: 23%;
+    padding-left: 43%;
     border-color: transparent;
   }
   .pre__header {
@@ -124,9 +124,16 @@ nav {
 }
 /* (max-width: 768px */
 @media (max-width: 768px) {
- .lyreImg {
-   display: none
- }
+  .lyreImg {
+    display: none
+  }
+  .center {
+    margin: 0 auto;
+  }
+  .navbar-dark .navbar-toggler {
+    padding: 12px;
+    border-color: transparent;
+  }
 }
 
 
@@ -162,6 +169,7 @@ nav>ul>li>a {
 .link {
   padding-top: 76px;
 }
+
 .logo {
   font-size: 52px;
   font-family: "Lato";
