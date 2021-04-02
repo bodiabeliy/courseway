@@ -101,16 +101,59 @@
 
  }
  .education__text {
+  padding-top: 33px;
   width: 50%;
   position: relative;
   height: 100%;
+  text-align: left;
  }
  .education__header {
   text-align: center;
   font-size: 35px;
-  font-family: "OpenSans";
+  font-family: "OpenSans", sans-serif;
   color: rgb(245, 245, 245);
   line-height: 0.858;
  }
+ .education__description {
+  padding-left: 95px;
+  font-size: 15px;
+  font-family: "Lato";
+  color: rgba(241, 241, 242, 0.78);
+  line-height: 1.835;
+  text-align: left;
+  width: 490px;
+ }
+ .get__education {
+  border-style: 1px solid rgb(255, 255, 255);
+  background-color: rgb(186, 39, 31);
+  width: 265px;
+  height: 64px;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.255;
+  text-align: center;
+  margin-left: 95px;
+  margin-top: 60px;
+ }
+ .workers_team {
+  margin-top: 60px;
+  padding-left: 15px
+ }
+ .name {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  color: rgb(62, 62, 62);
+  line-height: 0.638;
+  padding-top: 44px;
+  padding-bottom: 20px;
+ }
+ .text__muted {
+  font-size: 20px;
+ font-family: "Lato";
+ color: rgb(62, 62, 62);
+ line-height: 1.501;
+ text-align: center;
+ }
 }
-

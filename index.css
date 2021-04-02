@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 
@@ -144,7 +145,61 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     height: 405px;
    background: #a99473;
   }
-  
+  .education__text {
+    padding-top: 33px;
+    position: relative;
+    height: 100%;
+    text-align: left;
+   }
+   .education__header {
+    text-align: center;
+    font-size: 35px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(245, 245, 245);
+    line-height: 0.858;
+   }
+   .education__description {
+    padding-left: 30px;
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgba(241, 241, 242, 0.78);
+    line-height: 1;
+    text-align: center;
+   }
+   .get__education {
+    border-style: 1px solid rgb(255, 255, 255);
+    background-color: rgb(186, 39, 31);
+    height: 64px;
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.255;
+    text-align: center;
+    width: 100%;
+   }
+   .w-100 {
+    width: 70% !important; 
+    margin-left: 15%
+  }
+  .name {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    color: rgb(62, 62, 62);
+    line-height: 0.638;
+    padding-top: 24px;
+    padding-bottom: 10px;
+  }
+  .text__muted {
+    font-size: 24px;
+   font-family: "Lato";
+   color: rgb(62, 62, 62);
+   line-height: 1.501;
+   text-align: center;
+   margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+   }
 }
 /* (max-width: 400px */
 @media (max-width: 400px) {
@@ -344,3 +399,5 @@ h3 {
 .slider__arrows {
   position: absolute;
 }
+
+
