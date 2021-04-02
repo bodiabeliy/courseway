@@ -66,6 +66,9 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
 
 /* min-width: 1000px */
 @media (min-width: 1000px) {
+  h2 {
+    line-height: 0.667;
+  }
   .main__header {
     font-size: 60px;
   }
@@ -78,6 +81,15 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
   }
   .pre__header {
     letter-spacing: 1px;
+  }
+  .padding {
+    padding-top: 65px;
+  }
+  .course {
+    height: 800px;
+  }
+  .cards__course {
+    padding-top: 45px;
   }
   .program__card {
     max-width: 540px;
@@ -109,7 +121,36 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     height: 32px;
     right: 0;
   }
-  
+  .slider {
+    width: 100%;
+    height: 465px;
+  }
+  .container___slider {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .university__logo {
+    margin-left: 30px;
+  }
+  .slider__text {
+    font-size: 25px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(62, 62, 62);
+    line-height: 1.365;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .left__arrow {
+    position: absolute;
+    left: 10%;
+    top: 237%;
+  }
+  .right__arrow {
+    position: absolute;
+    right: 10%;
+    top: 237%;
+  }
 }
 
 /* max-width: 992px */
@@ -160,6 +201,10 @@ nav {
     height: 50px;
     margin: 0 auto;
   }
+  .course {
+    margin-top: 250px;
+    height: 3673px;
+  }
 }
 /* max-width: 870px */
 @media (max-width: 870px) {
@@ -207,8 +252,8 @@ nav {
     margin: auto;
   }
 }
-/* (max-width: 768px */
-@media (max-width: 768px) {
+/* (max-width: 767px */
+@media (max-width: 767px) {
   .lyreImg {
     display: none
   }
@@ -227,10 +272,13 @@ nav {
   }
   .course {
     margin-top: 250px;
+    height: 3900px;
+  }
+  .cards__course {
+    padding-top: 0;
   }
   .program__card {
     max-width: 540px;
-    height: 272px;
     background: #e8e8e8;
     display: block;
     margin: 15px auto
@@ -241,18 +289,38 @@ nav {
     display: flex;
     flex-direction: column-reverse;
   }
+  .paragrph__card {
+    width: 100%;
+  }
   .header__card {
     font-size: 40px;
   }
   .card__img img{
     padding: 20px;
-    width: 70%;
+    width: 100%;
   }
+  .register {
+    height: 70px;
+    margin: 15px 0 18px 0;
+  }
+  .logo_university {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .slider__text {
+    text-align: center;
+    font-size: 30px;
+  }
+  
 }
-/* (max-width: 600px */
-@media (max-width: 600px) {
+/* (max-width: 400px */
+@media (max-width: 400px) {
+  h2 {
+    line-height: 1;
+  }
   .course {
-    margin-top: 320px;
+    margin-top: 250px;
+    height: 3650px;
   }
 }
 
@@ -371,7 +439,6 @@ h2 {
   font-size: 45px;
   font-family: "OpenSans", sans-serif;
   color: rgb(62, 62, 62);
-  line-height: 0.667;
   text-align: center;
   padding-top: 50px;
 }
@@ -383,9 +450,7 @@ h2 {
   text-align: center;
   padding-top: 45px;
 }
-.padding {
-  padding-top: 65px;
-}
+
 .name__card {
   font-size: 30px;
   font-family: "OpenSans", sans-serif;
@@ -410,7 +475,6 @@ h2 {
 
 .course {
   width: 100%;
-  height: 800px;
   background-color: rgb(240, 240, 240);
 }
 .cards__course {
@@ -418,7 +482,6 @@ h2 {
   max-width: 1140px;
   height: 500px;
   text-align: center;
-  padding-top: 45px;
 }
 h3 {
   font-family: "OpenSans", sans-serif;
@@ -437,4 +500,9 @@ h3 {
 .link__card {
   color: #ba271f;
 }
-
+.slider__text:hover {
+  color: #ba271f;
+}
+.slider__arrows {
+  position: absolute;
+}
