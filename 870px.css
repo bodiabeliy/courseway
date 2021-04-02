@@ -1,0 +1,46 @@
+/* max-width: 870px */
+@media (max-width: 870px) {
+ .navbar-dark .navbar-toggler {
+   padding-left: 43%;
+   border-color: transparent;
+ }
+ .pre__header {
+   display: none;
+ }
+ .main__header {
+   font-size: 41px;
+ }
+ .advantages {
+   margin-bottom: 50px;
+ }
+ .form__container {
+   justify-content: center;
+   width: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+ .header__form, .header_form_elements {
+   width: 100%;
+ }
+ .lyre {
+   display: none;
+ }
+ .program__card {
+   padding: 10px;
+   background: #e8e8e8;
+   display: flex;
+   flex-direction: column-reverse;
+ }
+ .card__img img{
+   padding: 20px;
+   width: 70%;
+ }
+ .header__card {
+   font-size: 40px;
+ }
+ .paragrph__card, .link__card {
+   text-align: center;
+   width: 50%;
+   margin: auto;
+ }
+}

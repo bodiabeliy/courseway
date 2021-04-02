@@ -1,0 +1,54 @@
+/* max-width: 992px */
+
+@media (max-width: 992px) {
+ nav {
+   height: 100px;
+ }
+ .main__header {
+   font-size: 50px;
+ }
+ .navbar-dark .navbar-toggler {
+     padding-left: 42%;
+     border-color: transparent;
+   }
+   .form__container {
+     flex-direction: row;
+     justify-content: flex-end;
+   }
+   .header_form_elements {
+     width: 350px
+   }
+   .program__card {
+     padding: 10px;
+     background: #e8e8e8;
+     display: flex;
+     flex-direction: column-reverse;
+   }
+   .card__img img{
+     padding: 30px;
+     width: 70%;
+   }
+   .header__card {
+     font-size: 40px;
+   }
+   .paragrph__card, .link__card {
+     font-size: 30px;
+     text-align: center;
+     width: 50%;
+     margin: auto;
+   }
+   .register {
+     font-family: "OpenSans", sans-serif;
+     color: rgb(255, 255, 255);
+     color: white;
+     background-color: rgb(186, 39, 31);
+     border: 1px solid white;
+     width: 80%;
+     height: 50px;
+     margin: 0 auto;
+   }
+   .course {
+     margin-top: 250px;
+     height: 3673px;
+   }
+ }

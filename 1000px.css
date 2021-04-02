@@ -1,0 +1,116 @@
+/* min-width: 1000px */
+@media (min-width: 1000px) {
+ h2 {
+   line-height: 0.667;
+ }
+ .main__header {
+   font-size: 60px;
+ }
+ .form__container {
+   justify-content: flex-end;
+   
+ }
+ .header_form_elements {
+   width: 350px;
+ }
+ .pre__header {
+   letter-spacing: 1px;
+ }
+ .padding {
+   padding-top: 65px;
+ }
+ .course {
+   height: 800px;
+ }
+ .cards__course {
+   padding-top: 45px;
+ }
+ .program__card {
+   max-width: 540px;
+   height: 272px;
+   background: #e8e8e8;
+   margin-bottom: 24px;
+   margin-left: 15px;
+   margin-right: 15px;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 15px 30px 15px;
+ }
+ .paragrph__card, .link__card  {
+   font-size: 17.5px;
+   font-family: "Lato", sans-serif;
+   color: rgb(62, 62, 62);
+   line-height: 1.716;
+   text-align: left;
+   margin: 0;
+ }
+ .register {
+   font-size: 10px;
+   font-family: "OpenSans", sans-serif;
+   color: rgb(255, 255, 255);
+   color: white;
+   background-color: rgb(186, 39, 31);
+   border: 1px solid white;
+   width: 162px;
+   height: 32px;
+   right: 0;
+ }
+ .slider {
+   width: 100%;
+   height: 465px;
+ }
+ .container___slider {
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+ }
+ .university__logo {
+   margin-left: 30px;
+ }
+ .slider__text {
+   font-size: 25px;
+   font-family: "OpenSans", sans-serif;
+   color: rgb(62, 62, 62);
+   line-height: 1.365;
+   text-align: center;
+   padding-top: 25px;
+ }
+ .left__arrow {
+   position: absolute;
+   left: 10%;
+   margin-top: 5%;
+   z-index: 1;
+ }
+ .right__arrow {
+   position: absolute;
+   right: 10%;
+   margin-top: 5%;
+   z-index: 1;
+ }
+ .logo_university {
+  z-index: 5;
+ }
+ .education {
+  width: 100%;
+  height: 405px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Feducation.png?alt=media&token=6bb34648-b757-467b-8108-8a3c8cc169ca');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .education__text {
+  width: 50%;
+  position: relative;
+  height: 100%;
+ }
+ .education__header {
+  text-align: center;
+  font-size: 35px;
+  font-family: "OpenSans";
+  color: rgb(245, 245, 245);
+  line-height: 0.858;
+ }
+}
+

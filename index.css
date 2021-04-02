@@ -64,196 +64,9 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
   margin: 0;
 }
 
-/* min-width: 1000px */
-@media (min-width: 1000px) {
-  h2 {
-    line-height: 0.667;
-  }
-  .main__header {
-    font-size: 60px;
-  }
-  .form__container {
-    justify-content: flex-end;
-    
-  }
-  .header_form_elements {
-    width: 350px;
-  }
-  .pre__header {
-    letter-spacing: 1px;
-  }
-  .padding {
-    padding-top: 65px;
-  }
-  .course {
-    height: 800px;
-  }
-  .cards__course {
-    padding-top: 45px;
-  }
-  .program__card {
-    max-width: 540px;
-    height: 272px;
-    background: #e8e8e8;
-    margin-bottom: 24px;
-    margin-left: 15px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 15px 30px 15px;
-  }
-  .paragrph__card, .link__card  {
-    font-size: 17.5px;
-    font-family: "Lato", sans-serif;
-    color: rgb(62, 62, 62);
-    line-height: 1.716;
-    text-align: left;
-    margin: 0;
-  }
-  .register {
-    font-size: 10px;
-    font-family: "OpenSans", sans-serif;
-    color: rgb(255, 255, 255);
-    color: white;
-    background-color: rgb(186, 39, 31);
-    border: 1px solid white;
-    width: 162px;
-    height: 32px;
-    right: 0;
-  }
-  .slider {
-    width: 100%;
-    height: 465px;
-  }
-  .container___slider {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-  }
-  .university__logo {
-    margin-left: 30px;
-  }
-  .slider__text {
-    font-size: 25px;
-    font-family: "OpenSans", sans-serif;
-    color: rgb(62, 62, 62);
-    line-height: 1.365;
-    text-align: center;
-    padding-top: 25px;
-  }
-  .left__arrow {
-    position: absolute;
-    left: 10%;
-    top: 237%;
-  }
-  .right__arrow {
-    position: absolute;
-    right: 10%;
-    top: 237%;
-  }
-}
 
-/* max-width: 992px */
-@media (max-width: 992px) {
-nav {
-  height: 100px;
-}
-.main__header {
-  font-size: 50px;
-}
-.navbar-dark .navbar-toggler {
-    padding-left: 42%;
-    border-color: transparent;
-  }
-  .form__container {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  .header_form_elements {
-    width: 350px
-  }
-  .program__card {
-    padding: 10px;
-    background: #e8e8e8;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .card__img img{
-    padding: 30px;
-    width: 70%;
-  }
-  .header__card {
-    font-size: 40px;
-  }
-  .paragrph__card, .link__card {
-    font-size: 30px;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-  }
-  .register {
-    font-family: "OpenSans", sans-serif;
-    color: rgb(255, 255, 255);
-    color: white;
-    background-color: rgb(186, 39, 31);
-    border: 1px solid white;
-    width: 80%;
-    height: 50px;
-    margin: 0 auto;
-  }
-  .course {
-    margin-top: 250px;
-    height: 3673px;
-  }
-}
-/* max-width: 870px */
-@media (max-width: 870px) {
-  .navbar-dark .navbar-toggler {
-    padding-left: 43%;
-    border-color: transparent;
-  }
-  .pre__header {
-    display: none;
-  }
-  .main__header {
-    font-size: 41px;
-  }
-  .advantages {
-    margin-bottom: 50px;
-  }
-  .form__container {
-    justify-content: center;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .header__form, .header_form_elements {
-    width: 100%;
-  }
-  .lyre {
-    display: none;
-  }
-  .program__card {
-    padding: 10px;
-    background: #e8e8e8;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .card__img img{
-    padding: 20px;
-    width: 70%;
-  }
-  .header__card {
-    font-size: 40px;
-  }
-  .paragrph__card, .link__card {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-  }
-}
-/* (max-width: 767px */
-@media (max-width: 767px) {
+/* (max-width: 769px */
+@media (max-width: 769px) {
   .lyreImg {
     display: none
   }
@@ -311,6 +124,26 @@ nav {
     text-align: center;
     font-size: 30px;
   }
+  .__arrow {
+    width: 70px;
+    margin-left: 46.5%;
+    padding: 15px 0 15px 0;
+  }
+  .up {
+    transform: rotate(90deg);
+  }
+  .down {
+    transform: rotate(90deg);
+  }
+  .ucla {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .education {
+    width: 100%;
+    height: 405px;
+   background: #a99473;
+  }
   
 }
 /* (max-width: 400px */
@@ -321,6 +154,11 @@ nav {
   .course {
     margin-top: 250px;
     height: 3650px;
+  }
+  .__arrow {
+    width: 50px;
+    margin-left: 44.5%;
+    padding: 15px 0 15px 0;
   }
 }
 
