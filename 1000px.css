@@ -5,6 +5,7 @@
  }
  .main__header {
    font-size: 60px;
+   padding-left: 31px;
  }
  .form__container {
    justify-content: flex-end;
@@ -138,6 +139,7 @@
  }
  .workers_team {
   padding-bottom: 60px;
+  padding-top: 30px;
  }
  .name {
   text-align: center;
