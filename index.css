@@ -209,6 +209,18 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     margin-left: 11px;
     margin-bottom: 20px;
   }
+  .submit {
+    background-color: rgb(186, 39, 31);
+    width: 100%;
+    height: 65px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.701;
+    text-align: center;
+    align-items: center;
+   }
 }
 /* (max-width: 400px */
 @media (max-width: 400px) {
@@ -431,3 +443,10 @@ h3 {
   margin: 0 auto; 
   padding: 0 15px 0 15px;
 }
+.sizing {
+  width: 100%;
+  height: 65px;
+  padding: 15px;
+  margin-bottom: 30px;
+ }
+ 
