@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 
@@ -200,6 +199,16 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     margin-right: 15%;
     padding-bottom: 20px;
    }
+   .social__icons {
+    display: flex;
+    justify-content: center;
+  }
+  .social__icons > img {
+    width: 50px;
+    height: 50px;
+    margin-left: 11px;
+    margin-bottom: 20px;
+  }
 }
 /* (max-width: 400px */
 @media (max-width: 400px) {
@@ -399,5 +408,26 @@ h3 {
 .slider__arrows {
   position: absolute;
 }
-
-
+.footer__form {
+  background-color: rgb(169, 148, 115);
+}
+.form__header {
+  font-family: "OpenSans", sans-serif;
+  color: rgb(243, 243, 243);
+  line-height: 1;
+  text-align: center;
+}
+.form__text {
+  font-family: "OpenSans", sans-serif;
+  color: rgb(243, 243, 243);
+  line-height: 1.701;
+  text-align: center;
+  padding-top: 10px;
+}
+.form__footer__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto; 
+  padding: 0 15px 0 15px;
+}
