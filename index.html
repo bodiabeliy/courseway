@@ -25,9 +25,9 @@
             </li>
             <li class="link"><a href="#" class="text collapse navbar-collapse" id="navbarNav">головна</a></li>
             <li class="link"><a href="#course" class="text collapse navbar-collapse" id="navbarNav">курси</a></li>
-            <li class="link"><a href="" class="text collapse navbar-collapse" id="navbarNav">блог</a></li>
-            <li class="link"><a href="" class="text collapse navbar-collapse" id="navbarNav">про проект</a></li>
-            <li class="link"><a href="" class="text collapse navbar-collapse" id="navbarNav">редєстрація</a></li>
+            <li class="link"><a href="#advant" class="text collapse navbar-collapse" id="navbarNav">блог</a></li>
+            <li class="link"><a href="#team" class="text collapse navbar-collapse" id="navbarNav">про проект</a></li>
+            <li class="link"><a href="#form" class="text collapse navbar-collapse" id="navbarNav">редєстрація</a></li>
           </ul>
         </nav>
         <h1 class="main__header">БЕЗКОШНОВНІ ОНЛАЙН-КУРСИ</h1>
@@ -43,7 +43,7 @@
     </div>
   </section>
   <section class="advantages">
-    <div class="container">
+    <div class="container" id="advant">
       <h2>ПЕРЕВАГИ</h2>
       <div class="cards__adv">
         <div class="row">
@@ -87,7 +87,7 @@
     </div>
   </section>
   <section class="course">
-    <div class="container">
+    <div class="container" id="course">
       <h2>ДОСТУПНІ КУРСИ</h2>
       <h3 id="course">Запишіться прямо зараз на безкоштовні курси</h3>
      <div class="cards__course">
@@ -152,33 +152,41 @@
   </section>
   <section class="slider">
     <div class="container">
-      <h2>ПАРТНЕРИ - ОСВІТНІ ЗАКЛАДИ</h2>
-      <div class="container___slider">
-        <div class="cam">
-          <div class="left__arrow">
-            <img class="__arrow up" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAback.png?alt=media&token=787dcad9-4c5f-457a-8a4d-62fa9837daa7 " alt="">
+      <div class="container">
+        <h2>ПАРТНЕРИ - ОСВІТНІ ЗАКЛАДИ</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active logo_university">
+              <img src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fcambridge.png?alt=media&token=749dfa2e-e9ca-4e65-a9b5-49fcd983d4bd" alt="" class="d-flex position">
+              <p class="slider__text">Cambridge</p>
+            </div>
+            <div class="carousel-item logo_university">
+              <img src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fharvard.png?alt=media&token=480c6811-2781-47f8-bca2-3dfb3a095207" alt="" class="d-flex position">
+              <p class="slider__text">Havard</p>
+            </div>
+            <div class="carousel-item logo_university">
+              <img src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fmit_crest_logo.png?alt=media&token=2711a207-e2ee-4ce8-a394-871dfda5c1a5" alt="" class="d-flex position">
+              <p class="slider__text">MIT</p>
+            </div>
+            <div class="carousel-item logo_university">
+              <img src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fucla.png?alt=media&token=92f9d7ec-5273-45ae-826a-dc05e0ccd918" alt="" class="d-flex position">
+              <p class="slider__text">Ucla</p>
+              <div class="left__arrow">
+                <img class="carousel-control-prev __arrow up" href="#carouselExampleIndicators" role="button" data-slide="prev"
+                src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAback.png?alt=media&token=787dcad9-4c5f-457a-8a4d-62fa9837daa7" alt="">
+              </div>
+            </div>
           </div>
-          <img class="col-sm logo_university" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fcambridge.png?alt=media&token=749dfa2e-e9ca-4e65-a9b5-49fcd983d4bd " alt="">
-          <p class="slider__text">Cambridge</p>
         </div>
-        <div class="university__logo hav">
-          <img class="col-sm logo_university" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fharvard.png?alt=media&token=480c6811-2781-47f8-bca2-3dfb3a095207" alt="">
-          <p class="slider__text">Harvard</p>
-        </div>
-        <div class="university__logo mit">
-          <img class="col-sm logo_university" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fmit_crest_logo.png?alt=media&token=2711a207-e2ee-4ce8-a394-871dfda5c1a5" alt="">
-          <p class="slider__text">MIT</p>
-        </div>
-        <div class="university__logo ucla">
-          <div class="right__arrow">
-            <img class="__arrow down" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAnext.png?alt=media&token=fc06fe68-fd18-4d52-a4d9-b7d7fc4a28b1" alt="">
-          </div>
-          <img class="col-sm logo_university" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fucla.png?alt=media&token=92f9d7ec-5273-45ae-826a-dc05e0ccd918" alt="">
-          <p class="slider__text">UCLA</p>
-        </div>
+        <img class="carousel-control-prev __arrow up left__arrow" href="#carouselExampleIndicators" role="button" data-slide="prev"
+        src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAback.png?alt=media&token=787dcad9-4c5f-457a-8a4d-62fa9837daa7" alt="">
+
+        <img class="carousel-control-prev  __arrow up right__arrow" href="#carouselExampleIndicators" role="button" data-slide="next"
+        src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2FAnext.png?alt=media&token=fc06fe68-fd18-4d52-a4d9-b7d7fc4a28b1" alt="">
       </div>
     </div>
   </section>
+  
   <section class="education">
     <div class="education__img">
     </div>
@@ -192,9 +200,9 @@
   </section>
   <section class="section workers">
     <div class="section developers">
-      <div class="container">
+      <div class="container" id="team">
         <h2>РОЗРОБНИКИ</h2>
-        <div class="workers_team">
+        <div class="workers_team" >
           <div class="row">
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 item">
              <img class="w-100" src="https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o/images%2Fworker1.png?alt=media&token=13cfe3ec-7d94-46d5-ac85-cc0490c2d4ef" class="img-fluid" alt="team" />
@@ -250,10 +258,10 @@
     </div>
   </section>
   <section class="footer__form">
-  <div class="container">
+  <div class="container" id="form">
     <h2 class="form__header">ЗАРЕЄСТРУЙСЯ ЗАРАЗ</h2>
     <h3 class="form__text">Та отримай задоволення від навчання</h3>
-    <div class="form__footer__container">
+    <div class="form__footer__container" id="form">
       <input class="sizing" type="text" placeholder="Name" required> 
       <input class="sizing" type="text" placeholder="Email" required> 
       <button class="submit">Submit!</button>

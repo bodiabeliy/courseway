@@ -183,6 +183,9 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     width: 70% !important; 
     margin-left: 15%
   }
+  .d-flex {
+    margin: 0 auto;
+  }
   .name {
     text-align: center;
     font-size: 40px;
@@ -251,6 +254,9 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     margin-left: 20px;
     margin-bottom: 15px;
   }
+  .__arrow {
+    display: none;
+  }
 }
 /* (max-width: 400px */
 @media (max-width: 400px) {
@@ -265,6 +271,12 @@ https://firebasestorage.googleapis.com/v0/b/uploading-images-cf9c0.appspot.com/o
     width: 50px;
     margin-left: 44.5%;
     padding: 15px 0 15px 0;
+  }
+  .left__arrow {
+    display: none;
+  }
+  .right__arrow {
+   display: none;
   }
 }
 
@@ -490,4 +502,11 @@ h3 {
  .red {
    color: #ba271f;
  }
+
  
+
+ @media (prefers-reduced-motion: reduce) {
+  .carousel-item {
+      /* transition: none; */
+  }
+}
